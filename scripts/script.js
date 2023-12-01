@@ -1,7 +1,7 @@
 // navbar as variable
 var navbar = `
 <nav>
-    <a href="../index.html">Homepage</a>
+    <a href="../index.html">Startseite</a>
 </nav>
 `;
 
