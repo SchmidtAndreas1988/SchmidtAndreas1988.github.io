@@ -1,12 +1,18 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
 }
 
 p {
     font-size: 1.1em;
 }
+
+
 
 li {
     font-size: 1.1em;
