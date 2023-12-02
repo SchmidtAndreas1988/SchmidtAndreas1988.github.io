@@ -1,22 +1,22 @@
 * {
     font-family: 'Roboto', sans-serif;
     padding: auto;
+    padding-left: 10px;
 }
 
 a, a:visited { 
-    color: gray;
+    color: darkgrey;
     text-decoration: none;
     }
+
 a:hover {
-    color: red;
+    color: cyan;
     text-decoration: none;
     }
 
 p {
     font-size: 1.1em;
 }
-
-
 
 li {
     font-size: 1.1em;
