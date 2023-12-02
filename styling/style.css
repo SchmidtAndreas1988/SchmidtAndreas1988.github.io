@@ -4,9 +4,14 @@
     margin-right: 15px;
 }
 
-a {
+a, a:visited { 
+    color: gray;
     text-decoration: none;
-}
+    }
+a:hover {
+    color: red;
+    text-decoration: none;
+    }
 
 p {
     font-size: 1.1em;
