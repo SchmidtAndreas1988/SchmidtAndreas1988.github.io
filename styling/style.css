@@ -1,7 +1,8 @@
 * {
     font-family: 'Roboto', sans-serif;
-    padding: auto;
+    
     padding-left: 10px;
+    padding-right: 7px;
 }
 
 a, a:visited { 
