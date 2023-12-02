@@ -1,12 +1,13 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 li {
-    font-size: 1.2em;
-    margin-bottom: 3px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
