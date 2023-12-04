@@ -25,7 +25,8 @@ li {
 }
 
 table {
-    border: 1px;
+    border: 1px solid;
+    border-collapse: collapse;
 }
 tr {
     text-align: center;
