@@ -18,8 +18,9 @@ a:hover {
 p {
     font-size: 1.1em;
 }
+
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 li {
