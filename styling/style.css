@@ -24,7 +24,7 @@ li {
     margin-bottom: 5px;
 }
 
-table {
+table, th, td {
     border: 1px solid;
     border-collapse: collapse;
 }
