@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechtecke</title>
+        <style type = "text/css">
+        canvas {
+            border: 1px solid black;
+            }
+            body {
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    
+<canvas></canvas>
+
+<script>
+var farben = ["blue", "red", "yellow", "pink", "green"]
+var canvas = document.querySelector("canvas");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// var c = canvas.getContext("2d");
+var context = canvas.getContext('2d');
+context.fillStyle = "black";
+context.fillRect(0, 0, canvas.width, canvas.height);
+
+
+canvas.addEventListener('click', function(event) {
+  // Mausposition relativ zum Canvas erhalten
+  var mouseX = event.clientX - canvas.getBoundingClientRect().left;
+  var mouseY = event.clientY - canvas.getBoundingClientRect().top;
+  // Größe und Farbe des Rechtecks festlegen
+  var rechteckBreite = 50;
+  var rechteckHöhe = 50;
+  var rechteckFarbe = farben[(Math.floor(Math.random() * farben.length))];
+  // Rechteck zeichnen
+  context.fillStyle = rechteckFarbe;
+  context.fillRect(mouseX - (rechteckBreite / 2), mouseY - (rechteckHöhe / 2), rechteckBreite, rechteckHöhe);
+});
+
+
+
+</script>
+</body>
+</html>
